@@ -1,0 +1,16 @@
+{
+  "name": "philharmonic-headless",
+  "version": "0.0.1",
+  "description": "listen Philharmonic radio station in Chrome headless on Volumio",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^23.1.0",
+    "puppeteer-core": "^23.1.0"
+  }
+}
